@@ -16,6 +16,9 @@ public:
         cout << "Masukan Umur Hewan : ";
         cin >> umur;
     }
+    void tampil_jenis_kelamin(){ // memanggil member yang di private agar bisa di akses di public
+        cout << "Jenis Kelamin Hewan : " << jenis_kelamin;
+    }
 
 }; // harus menggunakn titik koma ketika menggunkana clas
 
