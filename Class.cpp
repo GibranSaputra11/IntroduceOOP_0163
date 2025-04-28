@@ -24,6 +24,11 @@ public:
 
 int main()
 {
-    
+    Hewan hwn; // mendelarasikan clas yang diikuti penamaan objek
+    cout << endl;
+    hwn.inputData();
+    cout << "Umur hewan = " << hwn.umur << endl; 
+    cout << "Tipe hewan = " << hwn.tipe << endl; 
+    hwn.tampil_jenis_kelamin(); // menampilan jenis kelamin di program utama 
 
 }
